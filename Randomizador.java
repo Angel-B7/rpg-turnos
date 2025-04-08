@@ -6,6 +6,6 @@ public class Randomizador {
     private static final Random random = new Random();
 
     public static boolean sorteioTurno() {
-        return random.nextBoolean(); // true = jogador, false = inimigo
+        return random.nextBoolean();
     }
 }
